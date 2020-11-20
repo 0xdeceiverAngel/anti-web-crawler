@@ -55,3 +55,7 @@ function uri() {
 ```
 然後就是逆向
 戳 `http://www.porters.vip/verify/sign/fet?actions={}&tim={}&randstr={}&sign={}`
+## confusion
+在安裝 `pytesseract` 踩了坑 numpy要用1.19.3 `pip install numpy==1.19.3`
+就是有些網頁會用圖片來表示文字 user看起來沒問題 但是要爬就會有問題
+用OCR辨識
