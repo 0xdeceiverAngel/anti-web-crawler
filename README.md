@@ -59,3 +59,21 @@ function uri() {
 在安裝 `pytesseract` 踩了坑 numpy要用1.19.3 `pip install numpy==1.19.3`
 就是有些網頁會用圖片來表示文字 user看起來沒問題 但是要爬就會有問題
 用OCR辨識
+## css offset
+```html=
+<span class="fix_price">
+    <span class="prc_wp" style="width:48px">
+        <em class="rel">
+            <b style="width:48px;left:-48px">
+                <i style="width: 16px;">7</i>
+                <i style="width: 16px;">7</i>
+                <i style="width: 16px;">7</i>
+            </b>
+            <b style="width: 16px;left:-32px">6</b>
+            <b style="width: 16px;left:-48px">4</b>
+        </em>
+    </span>
+ </span>
+```
+很明顯 css 位移 
+~~算這個很煩 乾脆直接OCR~~
