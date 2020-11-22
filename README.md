@@ -77,3 +77,30 @@ function uri() {
 ```
 很明顯 css 位移 
 ~~算這個很煩 乾脆直接OCR~~
+
+## svg
+就是利用svg 先畫出一堆數字的背景 然後取位置 顯示前端當成數字來用
+載css時會載入svg當背景 再利用class 只顯示某塊數字
+手動對應找出關係就好
+```css=
+d[class^="vhk"] {
+  width: 14px;
+  height: 30px;
+  margin-top: -9px;
+  background-image: url(../font/food.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -6px;
+}
+.vhk08k {
+  background: -274px -141px;
+}
+.vhk6zl {
+  background: -7px -15px;
+}
+.vhk0ao {
+  background: -133px -97px;
+}
+...略
+```
