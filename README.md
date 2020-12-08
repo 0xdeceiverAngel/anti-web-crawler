@@ -106,3 +106,11 @@ d[class^="vhk"] {
 ```
 ## font-replace
 就是先對字型檔案人工下去做分析 爬網頁時再對照回去
+## webdriver
+- 用webkit開發的工具繞過
+- js改webdriver value
+- 用proxy過濾 eg. mitproxy
+- 設定 selenium
+## tools 
+- splash
+- puppeteer
