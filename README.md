@@ -111,6 +111,19 @@ d[class^="vhk"] {
 - js改webdriver value
 - 用proxy過濾 eg. mitproxy
 - 設定 selenium
+## browser features
+```js
+    document.getElementById('first').innerHTML = navigator.userAgent;
+    document.getElementById('second').innerHTML = navigator.platform;
+    document.getElementById('three').innerHTML = screen.width;
+    document.getElementById('four').innerHTML = screen.height;
+    document.getElementById('five').innerHTML = navigator.cookieEnabled;
+    document.getElementById('six').innerHTML = navigator.hardwareConcurrency;
+    document.getElementById('seven').innerHTML = new Date().getTimezoneOffset();
+    document.getElementById('eight').innerHTML = navigator.plugins.length;
+    document.getElementById('nine').innerHTML = window.screen.colorDepth;
+```
+可以列出特徵
 ## tools 
 - splash
 - puppeteer
