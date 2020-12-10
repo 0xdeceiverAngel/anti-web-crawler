@@ -124,6 +124,8 @@ d[class^="vhk"] {
     document.getElementById('nine').innerHTML = window.screen.colorDepth;
 ```
 可以列出特徵
+## request frequency
+建ip pool or delay request
 ## tools 
 - splash
 - puppeteer
