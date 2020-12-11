@@ -126,6 +126,11 @@ d[class^="vhk"] {
 可以列出特徵
 ## request frequency
 建ip pool or delay request
+## fingertprint
+- uuid
+- canvas fingertprint
+- fingerprint js
+- webcl fingerprint 
 ## tools 
 - splash
 - puppeteer
