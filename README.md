@@ -131,6 +131,9 @@ d[class^="vhk"] {
 - canvas fingertprint
 - fingerprint js
 - webcl fingerprint 
+## hidden hyperlink
+放置像honey pot的hyper link 正常使用者不會點到
+只要去戳到連結 就知道你有問題 可能就把你ban掉
 ## tools 
 - splash
 - puppeteer
