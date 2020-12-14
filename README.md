@@ -134,6 +134,12 @@ d[class^="vhk"] {
 ## hidden hyperlink
 放置像honey pot的hyper link 正常使用者不會點到
 只要去戳到連結 就知道你有問題 可能就把你ban掉
+## app
+- 用charles 或是 burpsuite 抓包
+- 逆向
+- 自動化測試
+    - appium
+    - airtest project
 ## tools 
 - splash
 - puppeteer
