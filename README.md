@@ -140,6 +140,15 @@ d[class^="vhk"] {
 - 自動化測試
     - appium
     - airtest project
+## captcha
+驗證碼通用ocr很容易被干擾，就算有用灰階+二值化處理也是一樣
+所以要用cnn下去做辨識
+- 一般驗證碼
+- 計算型驗證碼
+- slide bar
+- 拼圖型驗證碼 
+- 文字點選
+- 滑鼠軌跡偵測
 ## tools 
 - splash
 - puppeteer
